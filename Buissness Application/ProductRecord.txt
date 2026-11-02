@@ -1,0 +1,31 @@
+Cotton Shirt,85000,C101,Yes,10
+Denim Jeans,45000,C102,Yes,10
+Leather Jacket,5000,C103,No,0
+Summer Kurta,2500,C104,Yes,10
+Wool Sweater,1500,C105,Yes,10
+Casual T-Shirt,30000,C106,No,0
+Formal Pants,20000,C107,Yes,10
+Silk Saree,40000,C108,Yes,10
+Hoodie,60000,C109,No,0
+Track Suit,7000,C110,Yes,10
+Running Shoes,5000,S101,Yes,10
+Sneakers,4500,S102,Yes,10
+Formal Shoes,6000,S103,No,0
+Sports Trainers,5500,S104,Yes,10
+Canvas shoes,2500,S105,Yes,10
+Leather Boots,8000,S106,No,0
+Flip Flops,1200,S107,Yes,10
+Sandals,2000,S108,Yes,10
+High Tops,4800,S109,Yes,10
+Joggers,5200,S110,No,0
+Gold Necklace,2220000,J101,Yes,10
+Silver Ring,5000,J102,Yes,10
+Diamond Earrings,250000,J103,Yes,10
+Pearl Bracelet,15000,J104,Yes,10
+Platinum Chain,80000,J105,Yes,10
+Anklet,30000,J106,Yes,10
+Nose Pin,4000,J107,No,0
+Bangles Set,25000,J108,Yes,10
+Pendant,10000,J109,Yes,10
+Wedding Ring,180000,J110,Yes,10
+Kid Rings,2000,J300,Yes,10

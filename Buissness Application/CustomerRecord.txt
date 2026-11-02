@@ -1,0 +1,7 @@
+1,Ali Khan,House 12 Gulberg Lahore,03001234567,54000,P001,1500.50
+2,Sara Ahmed,Street 5 DHA Karachi,03211234567,75500,P002,2300.00
+3,Usman Tariq,Block C Model Town Lahore,03331234567,54700,P003,875.75
+4,Ayesha Noor,Sector F8 Islamabad,03451234567,44000,P001,1500.50
+5,Hamza Raza,Satellite Town Rawalpindi,03121234567,46000,P004,4999.99
+6,Fatima Bibi,Hayatabad Peshawar,03091234567,25000,P002,2300.00
+7,Bilal Hussain,Cantt Area Multan,03011239876,60000,P005,320.25

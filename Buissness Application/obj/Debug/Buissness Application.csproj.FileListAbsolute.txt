@@ -1,0 +1,7 @@
+C:\BSCS_2nd_Semester\OOP Programming\Buissness Project\Buissness Application\bin\Debug\Buissness Application.exe.config
+C:\BSCS_2nd_Semester\OOP Programming\Buissness Project\Buissness Application\bin\Debug\Buissness Application.exe
+C:\BSCS_2nd_Semester\OOP Programming\Buissness Project\Buissness Application\bin\Debug\Buissness Application.pdb
+C:\BSCS_2nd_Semester\OOP Programming\Buissness Project\Buissness Application\obj\Debug\Buissness Application.csproj.AssemblyReference.cache
+C:\BSCS_2nd_Semester\OOP Programming\Buissness Project\Buissness Application\obj\Debug\Buissness Application.csproj.CoreCompileInputs.cache
+C:\BSCS_2nd_Semester\OOP Programming\Buissness Project\Buissness Application\obj\Debug\Buissness Application.exe
+C:\BSCS_2nd_Semester\OOP Programming\Buissness Project\Buissness Application\obj\Debug\Buissness Application.pdb
