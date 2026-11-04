@@ -41,7 +41,9 @@ namespace Buissness_Application.UI
             Console.WriteLine("6.Send Feedback");
             Console.WriteLine("7.View Feedback");
             Console.WriteLine("8.Search Feedback");
-            Console.WriteLine("9.Exit");
+            Console.WriteLine("9.Quick Filter");
+            Console.WriteLine("10.Paginated View");
+            Console.WriteLine("11.Exit");
             Console.Write("Enter your choice: ");
             string customer_choice = Console.ReadLine();
             return customer_choice;

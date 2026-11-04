@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net.NetworkInformation;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -75,12 +76,36 @@ namespace Buissness_Application.Service
         }
         public void DeleteProductService(ProductModel product)
         {
-            ProductList.Remove(product);
+            ProductList.Remove(product);   
             _repositry.SaveList(ProductList);
         }
         public List<ProductModel> GetProduct()
         {
             return ProductList = _repositry.GetData();
+        }
+        public List<ProductModel> FilterProductByAvailability(string Status)
+        {
+            if (Status != "")
+            {
+                return ProductList.FindAll(p => p.product_available.ToLower().Contains(Status.ToLower()));
+            }
+            return ProductList;
+        }
+        public List<ProductModel> FilterProductByAbove(int value,List<ProductModel>Filtered)
+        {
+            if(value > 0)
+            {
+                return Filtered.FindAll(p => p.product_price >= value);
+            }
+            return Filtered;
+        }
+        public List<ProductModel> FilterProductByBelow(int value, List<ProductModel> Filtered)
+        {
+            if (value > 0)
+            {
+                return Filtered.FindAll(p => p.product_price <= value);
+            }
+            return Filtered;
         }
         public List<ProductModel> GetSortedDesc()
         {

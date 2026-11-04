@@ -51,7 +51,8 @@ namespace Buissness_Application.UI
             Console.WriteLine("8.View Customer Feedback");
             Console.WriteLine("9.Search Customer Feedback");
             Console.WriteLine("10.Delete Customer Feedback");
-            Console.WriteLine("11.Exit");
+            Console.WriteLine("11.Quick Filter");
+            Console.WriteLine("12.Exit");
             Console.Write("Enter your choice: ");
             string owner_choice = Console.ReadLine();
             return owner_choice;

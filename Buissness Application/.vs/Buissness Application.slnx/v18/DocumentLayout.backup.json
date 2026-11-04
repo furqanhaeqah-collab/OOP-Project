@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\BSCS_2nd_Semester\\OOP Programming\\Buissness Project\\Buissness Application\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{978DBA36-C218-40C9-BCE6-0FFC167419CB}|Buissness Application.csproj|c:\\bscs_2nd_semester\\oop programming\\buissness project\\buissness application\\model\\customermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{978DBA36-C218-40C9-BCE6-0FFC167419CB}|Buissness Application.csproj|solutionrelative:model\\customermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{978DBA36-C218-40C9-BCE6-0FFC167419CB}|Buissness Application.csproj|c:\\bscs_2nd_semester\\oop programming\\buissness project\\buissness application\\ui\\productui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{978DBA36-C218-40C9-BCE6-0FFC167419CB}|Buissness Application.csproj|solutionrelative:ui\\productui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{978DBA36-C218-40C9-BCE6-0FFC167419CB}|Buissness Application.csproj|C:\\BSCS_2nd_Semester\\OOP Programming\\Buissness Project\\Buissness Application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{978DBA36-C218-40C9-BCE6-0FFC167419CB}|Buissness Application.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{978DBA36-C218-40C9-BCE6-0FFC167419CB}|Buissness Application.csproj|c:\\bscs_2nd_semester\\oop programming\\buissness project\\buissness application\\ui\\customerui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{978DBA36-C218-40C9-BCE6-0FFC167419CB}|Buissness Application.csproj|solutionrelative:ui\\customerui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{978DBA36-C218-40C9-BCE6-0FFC167419CB}|Buissness Application.csproj|c:\\bscs_2nd_semester\\oop programming\\buissness project\\buissness application\\service\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{978DBA36-C218-40C9-BCE6-0FFC167419CB}|Buissness Application.csproj|solutionrelative:service\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{978DBA36-C218-40C9-BCE6-0FFC167419CB}|Buissness Application.csproj|c:\\bscs_2nd_semester\\oop programming\\buissness project\\buissness application\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{978DBA36-C218-40C9-BCE6-0FFC167419CB}|Buissness Application.csproj|solutionrelative:service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{978DBA36-C218-40C9-BCE6-0FFC167419CB}|Buissness Application.csproj|c:\\bscs_2nd_semester\\oop programming\\buissness project\\buissness application\\repositries\\customerrepositries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{978DBA36-C218-40C9-BCE6-0FFC167419CB}|Buissness Application.csproj|solutionrelative:repositries\\customerrepositries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{978DBA36-C218-40C9-BCE6-0FFC167419CB}|Buissness Application.csproj|C:\\BSCS_2nd_Semester\\OOP Programming\\Buissness Project\\Buissness Application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{978DBA36-C218-40C9-BCE6-0FFC167419CB}|Buissness Application.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{978DBA36-C218-40C9-BCE6-0FFC167419CB}|Buissness Application.csproj|c:\\bscs_2nd_semester\\oop programming\\buissness project\\buissness application\\ui\\userui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{978DBA36-C218-40C9-BCE6-0FFC167419CB}|Buissness Application.csproj|solutionrelative:ui\\userui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,72 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\BSCS_2nd_Semester\\OOP Programming\\Buissness Project\\Buissness Application\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\BSCS_2nd_Semester\\OOP Programming\\Buissness Project\\Buissness Application\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAKwAAAAAAAAAAAAgwMQAAAAhAAAAAAAAAA==",
+              "Title": "UserUI.cs",
+              "DocumentMoniker": "C:\\BSCS_2nd_Semester\\OOP Programming\\Buissness Project\\Buissness Application\\UI\\UserUI.cs",
+              "RelativeDocumentMoniker": "UI\\UserUI.cs",
+              "ToolTip": "C:\\BSCS_2nd_Semester\\OOP Programming\\Buissness Project\\Buissness Application\\UI\\UserUI.cs",
+              "RelativeToolTip": "UI\\UserUI.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowDUAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-19T17:09:23.064Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CustomerUI.cs",
-              "DocumentMoniker": "C:\\BSCS_2nd_Semester\\OOP Programming\\Buissness Project\\Buissness Application\\UI\\CustomerUI.cs",
-              "RelativeDocumentMoniker": "UI\\CustomerUI.cs",
-              "ToolTip": "C:\\BSCS_2nd_Semester\\OOP Programming\\Buissness Project\\Buissness Application\\UI\\CustomerUI.cs",
-              "RelativeToolTip": "UI\\CustomerUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-01T07:17:54.9Z",
+              "WhenOpened": "2026-11-04T11:51:21.565Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CustomerService.cs",
-              "DocumentMoniker": "C:\\BSCS_2nd_Semester\\OOP Programming\\Buissness Project\\Buissness Application\\Service\\CustomerService.cs",
-              "RelativeDocumentMoniker": "Service\\CustomerService.cs",
-              "ToolTip": "C:\\BSCS_2nd_Semester\\OOP Programming\\Buissness Project\\Buissness Application\\Service\\CustomerService.cs",
-              "RelativeToolTip": "Service\\CustomerService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "CustomerUI.cs",
+              "DocumentMoniker": "C:\\BSCS_2nd_Semester\\OOP Programming\\Buissness Project\\Buissness Application\\UI\\CustomerUI.cs",
+              "RelativeDocumentMoniker": "UI\\CustomerUI.cs",
+              "ToolTip": "C:\\BSCS_2nd_Semester\\OOP Programming\\Buissness Project\\Buissness Application\\UI\\CustomerUI.cs",
+              "RelativeToolTip": "UI\\CustomerUI.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwC0AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-01T07:17:50.394Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CustomerRepositries.cs",
-              "DocumentMoniker": "C:\\BSCS_2nd_Semester\\OOP Programming\\Buissness Project\\Buissness Application\\Repositries\\CustomerRepositries.cs",
-              "RelativeDocumentMoniker": "Repositries\\CustomerRepositries.cs",
-              "ToolTip": "C:\\BSCS_2nd_Semester\\OOP Programming\\Buissness Project\\Buissness Application\\Repositries\\CustomerRepositries.cs",
-              "RelativeToolTip": "Repositries\\CustomerRepositries.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-01T07:17:31.569Z",
+              "WhenOpened": "2026-11-04T11:48:48.316Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CustomerModel.cs",
-              "DocumentMoniker": "C:\\BSCS_2nd_Semester\\OOP Programming\\Buissness Project\\Buissness Application\\Model\\CustomerModel.cs",
-              "RelativeDocumentMoniker": "Model\\CustomerModel.cs",
-              "ToolTip": "C:\\BSCS_2nd_Semester\\OOP Programming\\Buissness Project\\Buissness Application\\Model\\CustomerModel.cs",
-              "RelativeToolTip": "Model\\CustomerModel.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Title": "ProductUI.cs",
+              "DocumentMoniker": "C:\\BSCS_2nd_Semester\\OOP Programming\\Buissness Project\\Buissness Application\\UI\\ProductUI.cs",
+              "RelativeDocumentMoniker": "UI\\ProductUI.cs",
+              "ToolTip": "C:\\BSCS_2nd_Semester\\OOP Programming\\Buissness Project\\Buissness Application\\UI\\ProductUI.cs",
+              "RelativeToolTip": "UI\\ProductUI.cs",
+              "ViewState": "AgIAABUBAAAAAAAAAAAmwCUBAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-01T07:17:29.556Z",
+              "WhenOpened": "2026-11-04T11:24:49.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\BSCS_2nd_Semester\\OOP Programming\\Buissness Project\\Buissness Application\\Service\\ProductService.cs",
+              "RelativeDocumentMoniker": "Service\\ProductService.cs",
+              "ToolTip": "C:\\BSCS_2nd_Semester\\OOP Programming\\Buissness Project\\Buissness Application\\Service\\ProductService.cs",
+              "RelativeToolTip": "Service\\ProductService.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAA8wGsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T16:22:12.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\BSCS_2nd_Semester\\OOP Programming\\Buissness Project\\Buissness Application\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\BSCS_2nd_Semester\\OOP Programming\\Buissness Project\\Buissness Application\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAPMAAAAAAAAAAAAqwAcBAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T17:09:23.064Z",
               "EditorCaption": ""
             }
           ]

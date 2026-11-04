@@ -140,6 +140,12 @@ namespace Buissness_Application
                             }
                             else if (ownerOption == "11")
                             {
+                                // Code for View Feedback
+                                Console.Clear();
+                                _ProductUI.QuickFilter();
+                            }
+                            else if (ownerOption == "12")
+                            {
                                 // Code for Exit Admin Menu
                                 Console.Clear();
                                 _ProductUI.ExitProgram();
@@ -246,6 +252,18 @@ namespace Buissness_Application
                             _FeedbackUI.SearchFeedback(review);
                         }
                         else if (customerOption == "9")
+                        {
+                            // Code for View Feedback
+                            Console.Clear();
+                            _ProductUI.QuickFilter();
+                        }
+                        else if (customerOption == "10")
+                        {
+                            // Code for View Feedback
+                            Console.Clear();
+                            _ProductUI.PaginatedView();
+                        }
+                        else if (customerOption == "11")
                         {
                             // Code for Exit Customer Menu
                             Console.Clear();

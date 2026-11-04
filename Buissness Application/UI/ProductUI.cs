@@ -134,6 +134,168 @@ namespace Buissness_Application.UI
             int view_product_choice = int.Parse(Console.ReadLine());
             return view_product_choice;
         }
+        public string PaginatedViewMenu()
+        {
+            Console.WriteLine("----------------------------------");
+            Console.WriteLine("-------- View Product Menu -------");
+            Console.WriteLine("----------------------------------");
+            Console.WriteLine("1.Next Page (N)");
+            Console.WriteLine("2.Previous Page (P)");
+            Console.WriteLine("3.First Page (F)");
+            Console.WriteLine("4.Last Page (L)");
+            Console.WriteLine("5.Exit (X)");
+            Console.Write("Enter your choice: ");
+            string choice = Console.ReadLine();
+            return choice;
+        }
+        public void PaginatedView()
+        {
+            Console.Write("Enter Page Size: ");
+            int PageSize = int.Parse(Console.ReadLine());
+            int Count = 0;
+            while (true)
+            {
+                string input = PaginatedViewMenu();
+                if (input == "N")
+                {
+                    if (Count != productlist.Count)
+                    {
+                        Console.WriteLine("Name\t\tPrice\tCode\tAvalaibility\tQuantity");
+                        for (int i = Count-1; i < Count+PageSize; i++)
+                        {
+                            Console.WriteLine(productlist[i].product_name + "\t" + productlist[i].product_price + "\t" + productlist[i].product_code + "\t" + productlist[i].quantity);
+                            Count = Count + PageSize;
+                        }
+                        Console.ReadKey();
+                    }
+                    else
+                    {
+                        Console.WriteLine("Name\t\tPrice\tCode\tAvalaibility\tQuantity");
+                        for (int i = Count-PageSize; i < Count; i++)
+                        {
+                            Console.WriteLine(productlist[i].product_name + "\t" + productlist[i].product_price + "\t" + productlist[i].product_code + "\t" + productlist[i].quantity);
+                        }
+                        Console.WriteLine("Alreaddy on that Page");
+                        Console.ReadKey();
+                    }
+                }
+                else if (input == "P" && Count != 0)
+                {
+                    if (Count <= productlist.Count)
+                    {
+                        Console.WriteLine("Name\t\tPrice\tCode\tAvalaibility\tQuantity");
+                        for (int i = Count - 1; i >= Count - PageSize; i--)
+                        {
+                            Console.WriteLine(productlist[i].product_name + "\t" + productlist[i].product_price + "\t" + productlist[i].product_code + "\t" + productlist[i].quantity);
+                        }
+                        Count = Count - PageSize;
+                        Console.ReadKey();
+                    }
+                    else
+                    {
+                        Console.WriteLine("Name\t\tPrice\tCode\tAvalaibility\tQuantity");
+                        for (int i = Count-PageSize; i <= Count+PageSize; i--)
+                        {
+                            Console.WriteLine(productlist[i].product_name + "\t" + productlist[i].product_price + "\t" + productlist[i].product_code + "\t" + productlist[i].quantity);
+                        }
+                        Console.WriteLine("Alreaddy on that Page");
+                        Console.ReadKey();
+                    }
+                }
+                else if (input == "F")
+                {
+                    if(Count > 0)
+                    {
+                        Console.WriteLine("Name\t\tPrice\tCode\tAvalaibility\tQuantity");
+                        for (int i = 0; i < PageSize; i++)
+                        {
+                            Console.WriteLine(productlist[i].product_name + "\t" + productlist[i].product_price + "\t" + productlist[i].product_code + "\t" + productlist[i].quantity);
+                            Count = 0;
+                        }
+                        Console.ReadKey();
+                    }
+                    else
+                    {
+                        Console.WriteLine("Name\t\tPrice\tCode\tAvalaibility\tQuantity");
+                        for (int i = 0; i < PageSize; i--)
+                        {
+                            Console.WriteLine(productlist[i].product_name + "\t" + productlist[i].product_price + "\t" + productlist[i].product_code + "\t" + productlist[i].quantity);
+                        }
+                        Console.WriteLine("Alreaddy on that Page");
+                        Console.ReadKey();
+                    }
+                }
+                else if (input == "L")
+                {
+                    if (Count != productlist.Count)
+                    {
+                        Console.WriteLine("Name\t\tPrice\tCode\tAvalaibility\tQuantity");
+                        for (int i = productlist.Count; i >= productlist.Count - PageSize; i--)
+                        {
+                            Console.WriteLine(productlist[i].product_name + "\t" + productlist[i].product_price + "\t" + productlist[i].product_code + "\t" + productlist[i].quantity);
+                            Count = Count + PageSize;
+                        }
+                        Console.ReadKey();
+                    }
+                    else
+                    {
+                        Console.WriteLine("Name\t\tPrice\tCode\tAvalaibility\tQuantity");
+                        for (int i = productlist.Count; i >= productlist.Count - PageSize; i--)
+                        {
+                            Console.WriteLine(productlist[i].product_name + "\t" + productlist[i].product_price + "\t" + productlist[i].product_code + "\t" + productlist[i].quantity);
+                        }
+                        Console.WriteLine("Alreaddy on that Page");
+                        Console.ReadKey();
+                    }
+                }
+                else if (input == "X")
+                {
+                    Console.WriteLine("Exiting Program");
+                    break;
+                }
+            }
+        }
+        public void QuickFilter()
+        {
+            List<ProductModel> FilteredList = new List<ProductModel>();
+            Console.Write("Enter the Availability Status you want to check(Yes/No): ");
+            string status = Console.ReadLine();
+            FilteredList = _service.FilterProductByAvailability(status);
+            Console.Write("Enter the comparison type(Above or Below): ");
+            string comparison = Console.ReadLine();
+            if(comparison == "Above" && comparison != "")
+            {
+                Console.Write("Enter the numeric value: ");
+                int value = int.Parse(Console.ReadLine());
+                FilteredList = _service.FilterProductByAbove(value,FilteredList);
+            }
+            else if(comparison == "Below" && comparison != "")
+            {
+                Console.Write("Enter the numeric value: ");
+                int value = int.Parse(Console.ReadLine());
+                FilteredList = _service.FilterProductByBelow(value, FilteredList);
+            }
+            else
+            {
+                Console.WriteLine("Invalid Credentials");
+            }
+            ViewProduct(FilteredList);
+            Console.ReadKey();
+        }
+        public void ViewProduct(List<ProductModel>FilteredList)
+        {
+            foreach (ProductModel p in FilteredList)
+            {
+                Console.WriteLine("Name\t\tPrice\tCode\tAvalaibility\tQuantity");
+                Console.WriteLine(p.product_name + "\t" + p.product_price + "\t" + p.product_code + "\t" + p.product_available + p.quantity);
+            }
+            Console.WriteLine("Min Value: " + FilteredList.Min(p => p.product_price));
+            Console.WriteLine("Max Value: " + FilteredList.Max(p => p.product_price));
+            Console.WriteLine("Count Value: " + FilteredList.Count);
+            Console.WriteLine("Sum Value: " + FilteredList.Sum(p => p.product_price));
+            Console.WriteLine("Enter any key to Continue");
+            Console.ReadKey();
+        }
         public void ViewAllProductUI()
         {
             Console.Clear();
